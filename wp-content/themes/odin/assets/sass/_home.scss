@@ -1,0 +1,115 @@
+.home{
+	background-image: url('../images/home-bg.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color:#464646;	
+
+	#login-topo{
+		display: inline-flex;
+		.login-remember{
+		    position: absolute;
+		    right: 24%;
+		    top: 50%;
+		    color: #ffffff;
+		    font-size: 12px;
+		    line-height: 35px;
+		}
+	}
+
+	.cad-free-dual-cols, .cad-premium-dual-cols  {
+	    width: 96%;
+	}
+
+	.cad-free-single-col, .cad-premium-single-col {
+	    width: 98%;
+	}
+
+	.btn-register-free {
+	    width: 98%;
+	    border-radius: 0px;
+	    background-color: rgba(74,204,103,0.99);
+	    color: #ffffff;
+	    margin-bottom: 15px;
+	}
+
+	.btn-register-premium {
+	    width: 98%;
+	    border-radius: 0px;
+	    background-color: rgb(72, 93, 135);
+	    color: #ffffff;
+	    margin-bottom: 15px;
+	}	
+
+	.box-cadastro-free {
+	    padding-left: 30px;
+	    margin-right: -4%;
+	    padding-right: 24px;
+	    padding-top: 15px;
+	    background-color: rgba(19,46,101,0.75);
+	}
+
+	.box-cadastro-premium {
+	    padding-left: 30px;
+	    margin-right: -4%;
+	    padding-right: 24px;
+	    padding-top: 15px;
+	    background-color: rgb(74, 203, 103)
+	}	
+
+	.help-block {
+	    display: none;
+	    margin-top: 5px;
+	    color: #FFFFFF;
+	}
+
+	.registat {
+	    display: none;
+	}	
+
+	.box-free, .box-premium{
+	    background-color: rgba(251, 251, 251, 0.7);
+	    color: rgb(67, 90, 133);
+	    padding-right: 35px;	
+	}
+
+	.box-welcome-description{
+		padding-left: 20px;
+	}
+
+	.box-cadastro-content{
+		width: 100%;
+		padding-top: 15px;		
+	}
+
+	.box-cadastro-menu{
+	    width: 87.8%;
+	    background-color: rgba(19,46,101,0.75);
+	    display: inline-flex;
+	    margin-right: -12px;
+	    float: right;
+	    font-size: 15px;
+	    font-weight: 600;
+	    color: #fff;
+	    text-align: center;
+	    cursor: pointer;
+	    .glyphicon{
+	    	font-size:25px;
+	    }
+		.box-cadastro-menu-free{
+			width: 50%;
+		    padding-bottom: 5px;
+		    padding-top: 5px;
+		    vertical-align: middle;				
+		}
+
+		.box-cadastro-menu-premium{
+		    width: 50%;
+		    background-color: rgba(74,204,103,0.99);
+		    padding-bottom: 5px;
+		    padding-top: 5px;
+		    vertical-align: middle;	
+		}		
+	}
+}
